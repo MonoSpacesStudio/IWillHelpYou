@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class EspacoController : MonoBehaviour
 {
-    public GameObject lateralEsquerda, lateralDireita, topo, chao, painelAlimentar;
+    public GameObject lateralEsquerda, lateralDireita, topo, chao, painelAlimentar, painelDados;
     private Vector2 topoDireita, fundoEsquerda;
     // Start is called before the first frame update
     void Start()
@@ -41,5 +41,15 @@ public class EspacoController : MonoBehaviour
     public void fechaPainel()
     {
         painelAlimentar.SetActive(false);
+    }
+
+    public void abrePainelDados()
+    {
+        painelDados.SetActive(true);
+    }
+
+    public void fechaPainelDados()
+    {
+        painelDados.SetActive(false);
     }
 }

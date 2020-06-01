@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - ObjetoAviso
     - Player
     - cenasChange
+    - quartoPc
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -88,23 +89,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12608}
     - Class: 114
-      Script: {instanceID: 12902}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 13180}
+      Script: {instanceID: 13182}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13566}
+      Script: {instanceID: 13568}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13668}
     - Class: 114
-      Script: {instanceID: 13972}
+      Script: {instanceID: 13974}
     - Class: 114
-      Script: {instanceID: 14270}
+      Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 14286}
+      Script: {instanceID: 14288}
     - Class: 114
-      Script: {instanceID: 14308}
+      Script: {instanceID: 14310}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -159,21 +160,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12354}
     - Class: 114
-      Script: {instanceID: 12902}
+      Script: {instanceID: 12696}
     - Class: 114
-      Script: {instanceID: 13182}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13184}
     - Class: 114
-      Script: {instanceID: 13346}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13566}
+      Script: {instanceID: 13348}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13568}
     - Class: 114
-      Script: {instanceID: 14286}
+      Script: {instanceID: 13668}
     - Class: 114
-      Script: {instanceID: 25946}
+      Script: {instanceID: 14288}
+    - Class: 114
+      Script: {instanceID: 25514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -228,23 +231,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12354}
     - Class: 114
-      Script: {instanceID: 12902}
+      Script: {instanceID: 12696}
     - Class: 114
-      Script: {instanceID: 13182}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13184}
     - Class: 114
-      Script: {instanceID: 13346}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13566}
+      Script: {instanceID: 13348}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13568}
     - Class: 114
-      Script: {instanceID: 14286}
+      Script: {instanceID: 13668}
     - Class: 114
-      Script: {instanceID: 14366}
+      Script: {instanceID: 14288}
     - Class: 114
-      Script: {instanceID: 25946}
+      Script: {instanceID: 14368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -293,21 +296,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12250}
     - Class: 114
-      Script: {instanceID: 12902}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13270}
+      Script: {instanceID: 13272}
     - Class: 114
-      Script: {instanceID: 13566}
+      Script: {instanceID: 13568}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13668}
     - Class: 114
-      Script: {instanceID: 13774}
+      Script: {instanceID: 13776}
     - Class: 114
-      Script: {instanceID: 13944}
+      Script: {instanceID: 13946}
     - Class: 114
-      Script: {instanceID: 14286}
+      Script: {instanceID: 14288}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -611,6 +614,12 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
+      Hash: 2ac8acb9727f08fffa64cf99ad3bf3e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: cenasChange
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -869,7 +878,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: fa11f32c8488aa1f3268ffcad09d7355
+      Hash: 455afcec8b281cee6a5b1380ff106e96
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EspacoController
@@ -905,14 +914,14 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 2ac8acb9727f08fffa64cf99ad3bf3e7
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: cenasChange
+    className: quartoPc
   platform: 5
   scenePathNames:
   - Assets/Scenes/Inicio.unity
   - Assets/Scenes/FaseTerra.unity
   - Assets/Scenes/FaseEspaco.unity
   - Assets/Scenes/FaseTerra(2).unity
-  playerPath: C:/Users/bahia/Desktop/Executavel-Jogo/PrototipoGameApk.exe
+  playerPath: C:/Users/bahia/Desktop/HelpYou/Executavel-Jogo/PrototipoGameApk.exe

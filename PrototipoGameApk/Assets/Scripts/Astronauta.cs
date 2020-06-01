@@ -10,7 +10,8 @@ public class Astronauta : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animation;
     private SpriteRenderer render;
-    private bool colidindo = false;
+    private bool colidindoMaca = false;
+    private bool colidindoTablet = false;
     private EspacoController controller;
 
     void Start()
@@ -48,9 +49,14 @@ public class Astronauta : MonoBehaviour
             render.flipX = false;
         }
 
-        if (Input.GetKey(KeyCode.DownArrow) && colidindo)
+        if (Input.GetKey(KeyCode.DownArrow) && colidindoMaca)
         {
             controller.abrePainel();
+        }
+
+        if (Input.GetKey(KeyCode.DownArrow) && colidindoTablet)
+        {
+            controller.abrePainelDados();
         }
     }
 
@@ -75,8 +81,12 @@ public class Astronauta : MonoBehaviour
     {
         if (collision.gameObject.tag == "Maca")
         {
-            colidindo = true;
+            colidindoMaca = true;
             Debug.Log("Maca");
+        }else if (collision.gameObject.tag == "Tablet")
+        {
+            colidindoTablet = true;
+            Debug.Log("Tablet");
         }
     }
 
@@ -84,8 +94,13 @@ public class Astronauta : MonoBehaviour
     {
         if (collision.gameObject.tag == "Maca")
         {
-            colidindo = false;
+            colidindoMaca = false;
             Debug.Log("Nao Maca");
+        }
+        else if (collision.gameObject.tag == "Tablet")
+        {
+            colidindoTablet = false;
+            Debug.Log("Nao Table");
         }
     }
 }
